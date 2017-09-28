@@ -1,0 +1,14 @@
+{
+  "name": "reactlearning",
+  "version": "1.0.0",
+  "description": "This project is a simple step-by-step from [Udemy Course](https://www.udemy.com/react-basic-in-just-1-hour/learn/v4/t/lecture/5042046?start=0)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  }
+}
