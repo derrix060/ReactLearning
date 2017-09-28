@@ -1,11 +1,19 @@
 // Code goes here
 
-var Hello = React.createClass({
+var Product = React.createClass({
+  
+  buy: function(){
+    alert("You've bought an Android mobile");
+  },
+  
   render: function(){
     return (
-      <h2>Hello World</h2>
+      <div>
+          <p> Android - $199</p>
+          <button onClick={this.buy}>Buy</button>
+      </div>
       );
   }
 });
 
-React.render(<Hello/>, document.getElementById("root"));
+React.render(<Product/>, document.getElementById("root"));
